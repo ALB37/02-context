@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "jest -i --coverage",
-    "lint": "eslint"
+    "lint": "eslint ./lib/ ./__test__"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ALB37/02-context/issues"
   },
-  "homepage": "https://github.com/ALB37/02-context#readme"
+  "homepage": "https://github.com/ALB37/02-context#readme",
+  "devDependencies": {
+    "eslint": "^4.12.0"
+  }
 }
